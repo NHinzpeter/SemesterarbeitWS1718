@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE spielerdatenbank SYSTEM "S04Datenbank.dtd">
+
+<spielerdatenbank xsi:noNamespaceSchemaLocation="S04Datenbank.dtd">
+    <Spieler Nationalität="Deutschland" Position="Torhüter">
+        <Trikotnummer>1</Trikotnummer>
+        <Name>
+            <Vorname>Ralf</Vorname>
+            <Nachname>Fährmann</Nachname>
+        </Name>
+        <Geburtsdatum>1988-09-27</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Österreich" Position="Torhüter">
+        <Trikotnummer>34</Trikotnummer>
+        <Name>
+            <Vorname>Michael</Vorname>
+            <Nachname>Langer</Nachname>
+        </Name>
+        <Geburtsdatum>1985-01-06</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Deutschland" Position="Torhüter">
+        <Trikotnummer>35</Trikotnummer>
+        <Name>
+            <Vorname>Alexander</Vorname>
+            <Nachname>Nübel</Nachname>
+        </Name>
+        <Geburtsdatum>1996-09-30</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Deutschland" Position="Verteidiger">
+        <Trikotnummer>20</Trikotnummer>
+        <Name>
+            <Vorname>Thilo</Vorname>
+            <Nachname>Kehrer</Nachname>
+        </Name>
+        <Geburtsdatum>1996-09-21</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Deutschland" Position="Verteidiger">
+        <Trikotnummer>27</Trikotnummer>
+        <Name>
+            <Vorname>Sascha</Vorname>
+            <Nachname>Riether</Nachname>
+        </Name>
+        <Geburtsdatum>1983-03-23</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Deutschland " Position="Verteidiger">
+        <Trikotnummer>24</Trikotnummer>
+        <Name>
+            <Vorname>Bastian</Vorname>
+            <Nachname>Oczipka</Nachname>
+        </Name>
+        <Geburtsdatum>1989-01-12</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Spanien" Position="Verteidiger">
+        <Trikotnummer>3</Trikotnummer>
+        <Name>
+            <Vorname>Pablo</Vorname>
+            <Nachname>Insua</Nachname>
+        </Name>
+        <Geburtsdatum>1993-03-23</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Brasilien" Position="Verteidiger">
+        <Trikotnummer>29</Trikotnummer>
+        <Name>
+            <Vorname> Ronaldo Aparecido</Vorname>
+            <Nachname>Rodrigues</Nachname>
+        </Name>
+        <Geburtsdatum>1982-09-10</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Serbien" Position="Verteidiger">
+        <Trikotnummer>31</Trikotnummer>
+        <Name>
+            <Vorname>Matija</Vorname>
+            <Nachname>Nastasic</Nachname>
+        </Name>
+        <Geburtsdatum>1993-03-28</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Deutschland" Position="Mittelfeld">
+        <Trikotnummer>7</Trikotnummer>
+        <Name>
+            <Vorname>Max</Vorname>
+            <Nachname>Meyer</Nachname>
+        </Name>
+        <Geburtsdatum>1995-09-18</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Deutschland" Position="Mittelfeld">
+        <Trikotnummer>8</Trikotnummer>
+        <Name>
+            <Vorname>Leon</Vorname>
+            <Nachname>Goretzka</Nachname>
+        </Name>
+        <Geburtsdatum>1995-02-06</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Algerien" Position="Mittelfeld">
+        <Trikotnummer>10</Trikotnummer>
+        <Name>
+            <Vorname>Nabil</Vorname>
+            <Nachname>Bentaleb</Nachname>
+        </Name>
+        <Geburtsdatum>1994-11-24</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Ukraine" Position="Mittelfeld">
+        <Trikotnummer>11</Trikotnummer>
+        <Name>
+            <Vorname>Yevhen</Vorname>
+            <Nachname>Konoplyanka</Nachname>
+        </Name>
+        <Geburtsdatum>1989-09-29</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Frankreich" Position="Mittelfeld">
+        <Trikotnummer>17</Trikotnummer>
+        <Name>
+            <Vorname>Benjamin</Vorname>
+            <Nachname>Stambouli</Nachname>
+        </Name>
+        <Geburtsdatum>1990-08-13</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Deutschland" Position="Mittelfeld">
+        <Trikotnummer>18</Trikotnummer>
+        <Name>
+            <Vorname>Daniel</Vorname>
+            <Nachname>Caligiuri</Nachname>
+        </Name>
+        <Geburtsdatum>1988-01-15</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Österreich" Position="Mittelfeld">
+        <Trikotnummer>21</Trikotnummer>
+        <Name>
+            <Vorname>Alessandro</Vorname>
+            <Nachname>Schöpf</Nachname>
+        </Name>
+        <Geburtsdatum>1994-02-07</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Marokko" Position="Mittelfeld">
+        <Trikotnummer>25</Trikotnummer>
+        <Name>
+            <Vorname>Amine</Vorname>
+            <Nachname>Harit</Nachname>
+        </Name>
+        <Geburtsdatum>1997-06-18</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="USA" Position="Mittelfeld">
+        <Trikotnummer>2</Trikotnummer>
+        <Name>
+            <Vorname>Weston</Vorname>
+            <Nachname>McKennie</Nachname>
+        </Name>
+        <Geburtsdatum>1998-08-28</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Argentinien" Position="Stürmer">
+        <Trikotnummer>9</Trikotnummer>
+        <Name>
+            <Vorname>Franco Di</Vorname>
+            <Nachname>Santo</Nachname>
+        </Name>
+        <Geburtsdatum>1989-04-07</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Österreich" Position="Stürmer">
+        <Trikotnummer>19</Trikotnummer>
+        <Name>
+            <Vorname>Guido</Vorname>
+            <Nachname>Burgstaller</Nachname>
+        </Name>
+        <Geburtsdatum>1989-04-29</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Ghana" Position="Stürmer">
+        <Trikotnummer>32</Trikotnummer>
+        <Name>
+            <Vorname>Bernard</Vorname>
+            <Nachname>Tekpetey</Nachname>
+        </Name>
+        <Geburtsdatum>1997-09-03</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Schweiz" Position="Stürmer">
+        <Trikotnummer>36</Trikotnummer>
+        <Name>
+            <Vorname>Breel</Vorname>
+            <Nachname>Embolo</Nachname>
+        </Name>
+        <Geburtsdatum>1997-02-14</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Kroatien" Position="Stürmer">
+        <Trikotnummer>22</Trikotnummer>
+        <Name>
+            <Vorname>Marko</Vorname>
+            <Nachname>Pjaca</Nachname>
+        </Name>
+        <Geburtsdatum>1995-05-06</Geburtsdatum>
+    </Spieler>
+    <Spieler Nationalität="Deutschland" Position="Stürmer">
+        <Trikotnummer>23</Trikotnummer>
+        <Name>
+            <Vorname>Cedric</Vorname>
+            <Nachname>Teuchert</Nachname>
+        </Name>
+        <Geburtsdatum>1997-01-14</Geburtsdatum>
+    </Spieler>
+</spielerdatenbank>
+
