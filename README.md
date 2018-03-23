@@ -6,4 +6,4 @@ Dokumentation: <br>
 20.03.: Erstellung einer CLI-Library und Implementation ihrer Funktionen read() und convert() <br>
 21.03.: Implementation des ofstreams für convert(), des Nutzerinterfaces und der Methode sucheXYZ() <br>
 22.03.: Verbesserung von convert(), Erweiterung von sucheXYZ() auf zwei Paare von Kategorien / Inhalten <br>
-23.03.: Implementation von exportiere() <br>
+23.03.: Implementation von exportiere() und der XML-Validierung mit Hilfe der Vorlesung <br>
