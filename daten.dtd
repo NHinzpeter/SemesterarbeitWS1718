@@ -1,0 +1,8 @@
+<!ELEMENT spielerdatenbank Spieler>
+<!ELEMENT Spieler Trikotnummer Name Geburtsdatum>
+<!ATTLIST Spieler Nationalität Position>
+<!ELEMENT Trikotnummer>
+<!ELEMENT Name Vorname Nachname>
+<!ELEMENT Vorname>
+<!ELEMENT Nachname>
+<!ELEMENT Geburtsdatum>
