@@ -4,6 +4,7 @@ using namespace std;
 #include <string.h>
 #include "natt3.h"
 
+//Attributlibrary aus Vorlesung übernommen
 int ClattToken::getAttList(
 char                      *eingabe,
 ClElement                         *element)
@@ -39,7 +40,7 @@ for (zaehler=0,zustand=inNamen,anzahlAtt=0;*eingabe!='\0';
          zustand = erwarteAttributWert;
          puffer[zaehler] = '\0';
          if (element->attributeIstErlaubt(puffer)<0)
-            cout << endl << "Fehlerhaftes Attribut: " << puffer << endl;
+            cout << "Fehlerhaftes Attribut: " << puffer << endl;
          attName[anzahlAtt] = new char[zaehler+1];
          strcpy(attName[anzahlAtt],puffer);
          zaehler=0;

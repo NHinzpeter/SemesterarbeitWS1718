@@ -4,6 +4,10 @@ using namespace std;
 #include <fstream>
 #include "ntxt.h"
 
+
+//rekursive Funktion, parsed die TXT-Datei und schreibt sie in Cltxt-Objekte. Auf Basis des Zustandsenums des Typs txtzustand wird entschieden, ob es sich
+//bei der eingelesenen Datei um eine Spielernummer, um die Menge an Einsätzen oder die Menge von Toren handelt. Die Objekte werden durch den Pointer
+//'naechstes' miteinander verknüpft.
 void Cltxt::laden(ifstream& datei){
     char zeichen;
     char puffer[3];
@@ -47,3 +51,18 @@ void Cltxt::laden(ifstream& datei){
     return;
 }
 
+
+//rekursive Funktion, vergleicht die Spielernummer des aktuellen Spielers mit allen gesuchten Nummern. Wenn eine der Nummern mit der Spielernummer übereinstimmt, wird
+//(je nacg Modus) der gesuchte Wert zur Summe addiert. Der break in der for-Schleife sorgt dafür, dass der Wert eines Spielers nur einmal in der Summe berücksichtigt wird,
+//auch wenn dessen Spielernummer mehrmals eingegeben wurde.
+void Cltxt::berechne(char nrn[23][3], int *anzahlSpieler, bool *modus, int *ergebnis){
+    for (int i=0; i<*anzahlSpieler; i++){
+        if (!strcmp(nrn[i],NrChar)){
+            if (*modus==false) *ergebnis+=Einsaetze;
+            else *ergebnis+=Tore;
+            break;
+        }
+    }
+    //Rekursion
+    if (naechstes!=NULL) naechstes->berechne(nrn, anzahlSpieler, modus, ergebnis);
+}

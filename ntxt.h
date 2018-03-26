@@ -13,6 +13,7 @@ private:
     Cltxt *naechstes;
 public:
     void laden(ifstream& datei);
+    void berechne(char nrn[23][3], int *anzahlSpieler, bool *modus, int *ergebnis);
     int gibSpielernr() {return Spielernr;}
     int gibEinsaetze() {return Einsaetze;}
     int gibTore() {return Tore;}

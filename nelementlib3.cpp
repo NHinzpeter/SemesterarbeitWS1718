@@ -7,6 +7,7 @@ using namespace std;
 enum ezustand {direktive, element, attribute, abhaengigElement,
                abhaengigAttribute, noise};
 
+//Elementlibrary aus Vorlesung übernommen
 ClElement *verarbeite(ifstream& datei)
 {
 char zeichen, letztes;

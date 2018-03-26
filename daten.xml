@@ -146,8 +146,8 @@
     <Spieler Nationalität="Argentinien" Position="Stürmer">
         <Trikotnummer>09</Trikotnummer>
         <Name>
-            <Vorname>Franco Di</Vorname>
-            <Nachname>Santo</Nachname>
+            <Vorname>Franco</Vorname>
+            <Nachname>Di Santo</Nachname>
         </Name>
         <Geburtsdatum>1989-04-07</Geburtsdatum>
     </Spieler>
