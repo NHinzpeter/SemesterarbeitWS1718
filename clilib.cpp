@@ -68,11 +68,13 @@ void convert(ClToken *token, Cltxt *txt) {
         //Wenn der richtige Spieler gefunden wurde, werden mit addSibling() die Einsätze und Tore in den Token-Baum hinzugefügt
         string s = to_string(aktuell->gibEinsaetze());                          //Umwandlung des Integers in eine char const mit Hilfe von string.h
         char const *pchar = s.c_str();
-        token->child()->sibling()->sibling()->addSibling("Einsaetze",pchar);
+        char name[11]="Einsaetze";
+        token->child()->sibling()->sibling()->addSibling(name,pchar);
 
+        char name2[5]="Tore";
         s = to_string(aktuell->gibTore());                                      //Umwandlung des Integers in eine char const mit Hilfe von string.h
         pchar = s.c_str();
-        token->child()->sibling()->sibling()->sibling()->addSibling("Tore",pchar);
+        token->child()->sibling()->sibling()->sibling()->addSibling(name2,pchar);
 
     }
 
@@ -177,7 +179,8 @@ void berechnen(ClToken *token, Cltxt *txt){
     }
 
     //Parsing der Eingabe
-    for (int i=0; i<=eingabe.length()/3 && i<23; i++){
+    int lange=eingabe.length();
+    for (int i=0; i<=lange/3 && i<23; i++){
         nrn[i][0]=eingabe[i*3];
         nrn[i][1]=eingabe[i*3+1];
         nrn[i][2]='\0';

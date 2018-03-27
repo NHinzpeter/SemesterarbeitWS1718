@@ -6,9 +6,11 @@
  * Übernahme der Token-, Element- und Attributklassen aus der Vorlesung.
  * 'Datensätze' im Sinne der Aufgabenstellung sind Token mit dem Namen 'Spieler', inklusive aller Token, die in der Hierarchie des imaginären Baumes unter diesen stehen (Spielernummer, Name, usw).
  * Zunächst wird die txt-Datei in eine eigene Klasse eingelesen, durch die Konvertierung werden die Daten aus dieser Klasse in die Datensätze aufgenommen.
- * Um die konvertierten Daten ausgegeben zu bekommen, kann anschließend der Menupünkt 'Exportieren' gewählt werden (ein automatischer Export wird deshalb nicht mehr durchgeführt). Wenn dieser Menüpunkt vor der Konvertierung gewählt wird, wird nur die originale XML-Datei rekonstruiert.
+ * Um die konvertierten Daten ausgegeben zu bekommen, kann anschließend der Menupünkt 'Exportieren' gewählt werden (ein automatischer Export nach dem Konvertieren wird deshalb nicht mehr durchgeführt). Wenn dieser Menüpunkt vor der Konvertierung gewählt wird, wird nur die originale XML-Datei rekonstruiert.
  * Durch die Konvertierung wird somit auch die Suchfunktion beeinflusst: Nach der Konvertierung lassen sich auch nach den Daten aus der TXT suchen und jene Daten werden bei einer erfolgreichen Suche mit ausgegeben. Vor der Konvertierung ist dies nicht der Fall.
  * Benutzung vieler Strings, da sich diese in vielen Fällen als weitaus praktischer als Chars erwiesen haben, vor allem aufgrund der vielen praktischen Methoden der Klasse.
+ * Für die Darstellung von Umlauten wurde hex escape Sequenzen genutzt, dies führte in meinem Compiler zu einer Warnung, funktionierte jedoch wie erwartet.
+ * Die durch das Programm erstellten Dateien werden in das Verzeichnis abgelegt, in welchem auch das Buildverzeichnis liegt. (Relative Adresse vom Buildverzeichnis aus: "../dateiname"
  */
 
 #include <iostream>
